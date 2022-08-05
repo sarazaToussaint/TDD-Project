@@ -45,7 +45,7 @@ describe 'Write unit tests for class Solver' do
           expect(@solver.fizzbuzz(5)).to eq 'buzz'
         end
         it 'should return a number if the number is not divisible by 3 or 5' do
-          expect(@solver.fizzbuzz(10)).to eq 10
+          expect(@solver.fizzbuzz(13)).to eq 13
         end
       end
 end   
