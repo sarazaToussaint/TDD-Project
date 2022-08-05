@@ -17,11 +17,11 @@ describe 'Write unit tests for class Solver' do
       end
   
       it 'should raise an exception when N is a negative integer' do
-        result = @solver.factorial(-2)
+        result = @solver.factorial(-3)
         expect(result).to match('No negative integer. This is an exception.')
       end
     end
 
-    
+
 
 end   
